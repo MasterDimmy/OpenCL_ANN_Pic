@@ -38,13 +38,23 @@ src.exe
 
 # Demo run of example
 \>src.exe
+
 image database folder = test_images
+
 test image = test.jpg
+
 try to load saved ANN: save.ann ...
+
 loaded saved ANN
+
 loaded 2 types
+
 loading test image
+
 calculating prediction
+
 test image  [ 0.89, -0.90 ]
+
 best type num: 0
+
 test image type: A
