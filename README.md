@@ -3,20 +3,30 @@ Simple C++ Classificator of pictures, used OpenCV Artificial Neural Network (ANN
 
 # Files
 example\    - usage example 
+
 -test_images - folder with images to learn
+
 -test.jpg - image to classify
+
 -config.ini - config in format, described below
+
 -opencv_world310.dll - opencv dll for windows
+
 -save.ann - saved ANN
+
 -save.tp - saved class names
+
 -src.exe - compiled app
 
 src\ 
+
 -src.cpp - source file, comments are written in Russian
 
 # Config
 config.ini:
+
 local_path_to_images_in_subfoders
+
 path_to_image_for_classification
 
 # Build 
@@ -58,3 +68,9 @@ test image  [ 0.89, -0.90 ]
 best type num: 0
 
 test image type: A
+
+
+# Notes
+
+https://picoledelimao.github.io/blog/2016/01/31/is-it-a-cat-or-dog-a-neural-network-application-in-opencv/
+
